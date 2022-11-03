@@ -1,0 +1,34 @@
+.show-image-details {
+    text-align: center;
+    
+}
+
+.show-image-details img {
+    height: 50vh;
+    width: 50vh;
+    border-radius: 10px;
+}
+
+.show-image-details button {
+    margin: 20px;
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.show-image-details table {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+
+.show-image-details th, td {
+    padding: 15px;
+    text-align: left;
+}
+
+.show-image-details table thead tr th{
+    border-bottom: 1px solid #ddd;
+}

@@ -1,0 +1,26 @@
+.pagination-buttons {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+}
+
+.pagination-buttons button {
+    margin: 20px;
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.display-images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.display-images img {
+    height: 30vw;
+    width: 30vw;
+    border-radius: 10px;
+}
